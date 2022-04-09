@@ -52,7 +52,11 @@ h2 {
     }
 
     .header__linked-icons {
-        margin: 50px 30vw 5px auto;
+        margin: 50px 20vw 5px auto;
+    }
+
+    .header__linked-icons img {
+        margin: 5px;
     }
     
     .header__text {

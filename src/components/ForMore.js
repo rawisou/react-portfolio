@@ -22,7 +22,7 @@ const ForMore = () => {
         </div>
 
         <div>
-          <a href="https://stackoverflow.com/c/technigo/users/330">
+          <a href="https://stackoverflow.com/users/17854498/rawisara-saman">
             <img src="./images/stackoverflow.png" alt="StackOverflow" />
             <p>STACK</p>
             <p>OVERFLOW</p>

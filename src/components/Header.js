@@ -11,7 +11,7 @@ const Header = () => {
         <a href="https://github.com/rawisou">
           <img src="./images/github-header.svg" alt="Github icon" />
         </a>
-        <a href="https://stackoverflow.com/c/technigo/users/330">
+        <a href="https://stackoverflow.com/users/17854498/rawisara-saman">
           <img src="./images/stackoverflow-header.svg" alt="StackOverflow icon" />
         </a>
       </div>
