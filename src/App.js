@@ -1,14 +1,19 @@
 import React from 'react'
 
+import Header from './components/Header';
+import Intro from './components/Intro';
+import Tech from './components/Tech';
+import FeaturedProjects from './components/FeaturedProjects';
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          portfolio
-        </p>
-      </header>
-    </div>
+    <main>
+      <Header />
+      <Intro />
+      <Tech />
+      <h3>Featured projects</h3>
+      <FeaturedProjects />
+    </main>
   );
 }
 

@@ -1,0 +1,9 @@
+.section--h3 {
+    display: inline-block;
+    background-color: var(--color-dark-brick);
+    margin: 10px 20px 20px 20px;
+}
+
+.tech__card {
+    padding: 20px 20px;
+}
