@@ -63,3 +63,30 @@ transition: 0.5s ease;
     font-size: .8em;
     font-weight: 500;
 }
+
+.github-repo {
+    width: 22px;
+    margin-right: 3px;
+}
+
+.view-code {
+    margin: 10px 0 10px 0;
+    font-weight: 600;
+    color: rgb(23, 23, 73);
+}
+@media (min-width: 900px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .featured-project-img {
+        width: 400px;
+    }
+    .text-box, .other-projects__card--content{
+        max-width: 400px;
+    }
+    .text-box p {
+        font-size: 1em;
+    }
+ } 

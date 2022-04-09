@@ -3,7 +3,7 @@ import './styles/ForMore.css'
 
 const ForMore = () => {
   return (
-    <section className='to-center'>
+    <section className='odd to-center'>
       <div className="section--h3">
         <h3>FOR MORE</h3>
       </div>

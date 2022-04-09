@@ -6,10 +6,11 @@ import './styles/Articles.css'
 
 const Articles = () => {
   return (
-  <section className='to-center'>
+  <section className='odd to-center'>
       <div className="flex">
         <h3>My thoughts about code</h3>
       </div>
+        <div className='grid'>
       {articles.map((article) => {
         return (
           <articles>
@@ -30,6 +31,7 @@ const Articles = () => {
           </articles>
         )
       })}
+      </div>
     </section>
   )
 }

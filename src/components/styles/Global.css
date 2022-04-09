@@ -72,3 +72,16 @@ h6 {
     text-align: center;
     margin: 0;
 }
+
+@media (min-width: 900px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 3em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+}

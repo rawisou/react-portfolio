@@ -1,20 +1,20 @@
 export const featuredProjects = [
     {
         id: 1,
-        title: 'Github Tracker',
-        name: 'Github tracker with Github REST API',
-        img: './images/github-tracker.svg',
-        description: 'This Github tracker is built with Vanilla JavaScript. The purpose is to track all the projects built during Technigo Frontend Development Bootcamp and to dig deeper into using APIs.', 
-        netlify: 'https://rawi-github-tracker.netlify.app/',
-        github: 'https://github.com/rawisou/project-github-tracker',
-        tags: ['HTML5', 'CSS3', 'JavaScript ES6', 'API']
+        title: 'Happy thoughts',
+        name: 'A twitter-like app with only happy messages',
+        img: './images/happy-thoughts.svg',
+        description: 'Digging deeper into React Hooks such as useState and useEffect including working with HTTP GET and POST methods', 
+        netlify: 'https://illustrious-frangipane-e38a00.netlify.app/',
+        github: 'https://github.com/rawisou/project-happy-thoughts',
+        tags: ['HTML5', 'CSS3', 'React', 'API']
     },
     {
         id: 2,
         title: 'Guess Who?',
         name: 'Guess-who-game: French philosophers edition',
         img: './images/guess-who.svg',
-        description: 'A tweak of the classic game "Guess Who?" built with JavaScript ES6 which adds my personal touch in the project.', 
+        description: 'A tweak of the classic game "Guess Who?" built with JavaScript ES6. As I have a background in French studies, I added my personal touch into this project.', 
         netlify: 'https://rawi-project-guess-who.netlify.app/',
         github: 'https://github.com/rawisou/project-guess-who',
         tags: ['HTML5', 'CSS3', 'JavaScript ES6']
@@ -22,7 +22,7 @@ export const featuredProjects = [
     {
         id: 3,
         title: 'Popular Movies',
-        name: 'Movies Site built with React.',
+        name: 'Movies Site built with React',
         img: './images/movies-site.svg',
         description: 'Working with API requests was fun! Users can see details of each movie thanks to React Router.', 
         netlify: 'https://glittery-jelly-117bff.netlify.app/',
@@ -31,19 +31,37 @@ export const featuredProjects = [
     },
     {
         id: 4,
-        title: 'Happy recycling!',
-        name: 'A quiz that hopefully will inspire Stockholmers to recycle correctly.',
+        title: 'Recycling quiz',
+        name: 'A quiz that hopefully will inspire Stockholmers to recycle correctly',
         img: './images/redux-quiz.svg',
         description: 'This group project is built with React and Redux. We simulated working in a real dev team using mob programming and a tiny bit of a simulation of code review in real world.', 
         netlify: 'https://redux-recycling.netlify.app/',
         github: 'https://github.com/rawisou/project-redux-quiz',
         tags: ['HTML5', 'CSS3', 'React', 'Redux', 'Mob programming']
     },
+    {
+        id: 5,
+        title: 'Github Tracker',
+        name: 'Github tracker with Github REST API',
+        img: './images/github-tracker.svg',
+        description: 'This Github tracker is built with Vanilla JavaScript. The purpose is to track all the projects built during Technigo Frontend Development Bootcamp and to dig deeper into using APIs.', 
+        netlify: 'https://rawi-github-tracker.netlify.app/',
+        github: 'https://github.com/rawisou/project-github-tracker',
+        tags: ['HTML5', 'CSS3', 'JavaScript ES6', 'API']
+    },
+
 ]
 
 export const otherProjects = [
     {
         id: 1, 
+        project: 'Music Releases',
+        description: 'Spotify-like page with data from Spotify API',
+        netlify: 'https://brave-euler-832e7d.netlify.app/',
+        tags: ['HTML5', 'CSS3', 'React', 'API', 'Pair Programming']
+    },
+    {
+        id: 2, 
         project: 'Snow bot',
         description: 'Chat bot built with Vanilla JavaScript',
         netlify: 'https://distracted-stonebraker-d0c8bd.netlify.app/',
@@ -62,6 +80,13 @@ export const otherProjects = [
         description: 'Web application bult in JavaScript with external API',
         netlify: 'https://aurora-weather-app.netlify.app/',
         tags: ['HTML5', 'CSS3', 'JavaScript ES6', 'API', 'Mob programming' ]
+    },
+    {
+        id: 1, 
+        project: 'Snow bot',
+        description: 'Chat bot built with Vanilla JavaScript',
+        netlify: 'https://distracted-stonebraker-d0c8bd.netlify.app/',
+        tags: ['HTML5', 'CSS3', 'JavaScript ES6', 'Pair Programming']
     },
     {
         id: 4, 
