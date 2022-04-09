@@ -1,0 +1,17 @@
+.medium__article--link {
+    font-weight: 600;
+   }
+   
+   .medium__card__image img {
+       width: 300px;
+   }
+   
+   .medium__card__text-box {
+       margin: 10px 30px 10px 30px;
+       text-align: justify;
+   }
+   
+   .medium__card__text-box .brick-color {
+       font-size: .8em;
+   }
+   

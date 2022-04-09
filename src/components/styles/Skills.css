@@ -1,0 +1,16 @@
+.skills__card--content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.head-text {
+    font-weight: 600;
+    color: rgb(69, 8, 97);
+}
+
+@media (min-width: 900px) {
+    .skills__card--content {
+        grid-template-columns: 150px 150px 150px;
+    }
+}

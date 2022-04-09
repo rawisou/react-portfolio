@@ -1,0 +1,11 @@
+.contact__details p {
+    margin: 10px;
+    font-weight: 500;
+    font-size: 1em;
+    color: white;
+}
+
+.bold-color {
+    background-color: rgb(68, 68, 142);
+    width: 100%;
+}

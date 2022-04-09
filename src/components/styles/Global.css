@@ -14,7 +14,7 @@ body {
     background-color: rgb(238, 238, 238);
 }
 
-main {
+main, .flex {
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -25,19 +25,43 @@ section {
     margin: 10px 5px 20px 5px;
 }
 
+.section--h3 {
+    display: inline-block;
+    margin: 0 auto 20px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
 h3 {
     color: white;
     padding: 5px;
     background-color: rgb(63, 50, 88);
+    text-transform: uppercase;
+    margin-top: 10px;
 }
 
 h4 {
     color: white;
+    text-transform: uppercase;
 }
 
 h5 {
     font-size: 1em;
+    text-transform: uppercase;
 }
+
+h5 span {
+    text-transform: none;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+
 .to-center:nth-of-type(2n) {
     background-color: rgb(255, 255, 255);
     width: 100vw;
@@ -46,4 +70,5 @@ h5 {
     justify-items: center;
     align-items: center;
     text-align: center;
+    margin: 0;
 }
