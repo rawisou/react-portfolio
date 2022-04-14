@@ -45,6 +45,52 @@ h2 {
 }
 
 
+.header__linked-icons img{
+    animation: animation 2s;
+}
+
+
+@keyframes animation {
+    from {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.05, 1);
+    }
+
+    75% {
+        transform: scale(1.05, 0.9);
+       }
+    to {
+        transform: scale(1, 1)
+    }
+}
+@media (min-width: 600px) {
+    header {
+        background-size: 1500px;
+    }
+
+    .header__linked-icons {
+        margin: 50px 20vw 5px auto;
+    }
+
+    .header__linked-icons img {
+        margin: 5px;
+    }
+    
+    .header__text {
+        margin: 80px 50vw 0 auto;
+    }
+    
+    .header__profile-pic__container {
+        padding-right: 30vw;
+    }
+    .header__profile-picture--picture {
+        width: 150px;
+        height: 150px;
+    }
+}
+
 @media (min-width: 900px) {
     header {
         background-size: 1800px;

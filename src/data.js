@@ -1,26 +1,16 @@
 export const featuredProjects = [
     {
         id: 1,
-        title: 'Happy thoughts',
-        name: 'A twitter-like app with only happy messages',
-        img: './images/happy-thoughts.svg',
-        description: 'Digging deeper into React Hooks such as useState and useEffect including working with HTTP GET and POST methods', 
-        netlify: 'https://illustrious-frangipane-e38a00.netlify.app/',
-        github: 'https://github.com/rawisou/project-happy-thoughts',
-        tags: ['HTML5', 'CSS3', 'React', 'API']
+        title: 'To-do',
+        name: 'Minimal task tracker built with React',
+        img: './images/to-do.svg',
+        description: 'Starting with a design draft in Figma and then working with Redux to manage data in global state (store)', 
+        netlify: 'https://minimal-task-tracker.netlify.app/',
+        github: 'https://github.com/rawisou/project-todos',
+        tags: ['React', 'Redux', 'Styled Components', 'Figma']
     },
     {
         id: 2,
-        title: 'Guess Who?',
-        name: 'Guess-who-game: French philosophers edition',
-        img: './images/guess-who.svg',
-        description: 'A tweak of the classic game "Guess Who?" built with JavaScript ES6. As I have a background in French studies, I added my personal touch into this project.', 
-        netlify: 'https://rawi-project-guess-who.netlify.app/',
-        github: 'https://github.com/rawisou/project-guess-who',
-        tags: ['HTML5', 'CSS3', 'JavaScript ES6']
-    },
-    {
-        id: 3,
         title: 'Popular Movies',
         name: 'Movies Site built with React',
         img: './images/movies-site.svg',
@@ -30,17 +20,37 @@ export const featuredProjects = [
         tags: ['React', 'Styled Components', 'API', 'Pair programming']
     },
     {
+        id: 3,
+        title: 'Happy thoughts',
+        name: 'A twitter-like app with only happy messages',
+        img: './images/happy-thoughts.svg',
+        description: 'Digging deeper into React Hooks such as useState and useEffect including working with HTTP GET and POST methods', 
+        netlify: 'https://illustrious-frangipane-e38a00.netlify.app/',
+        github: 'https://github.com/rawisou/project-happy-thoughts',
+        tags: ['CSS3', 'React', 'API']
+    },
+    {
         id: 4,
+        title: 'Guess Who?',
+        name: 'Guess-who-game: French philosophers edition',
+        img: './images/guess-who.svg',
+        description: 'A tweak of the classic game "Guess Who?" built with JavaScript ES6. As I have a background in French studies, I added my personal touch into this project.', 
+        netlify: 'https://rawi-project-guess-who.netlify.app/',
+        github: 'https://github.com/rawisou/project-guess-who',
+        tags: ['HTML5', 'CSS3', 'JavaScript ES6']
+    },
+    {
+        id: 5,
         title: 'Recycling quiz',
         name: 'A quiz that hopefully will inspire Stockholmers to recycle correctly',
         img: './images/redux-quiz.svg',
         description: 'This group project is built with React and Redux. We simulated working in a real dev team using mob programming and a tiny bit of a simulation of code review in real world.', 
         netlify: 'https://redux-recycling.netlify.app/',
         github: 'https://github.com/rawisou/project-redux-quiz',
-        tags: ['HTML5', 'CSS3', 'React', 'Redux', 'Mob programming']
+        tags: ['React', 'Redux', 'Styled Components', 'Mob programming']
     },
     {
-        id: 5,
+        id: 6,
         title: 'Github Tracker',
         name: 'Github tracker with Github REST API',
         img: './images/github-tracker.svg',
@@ -108,7 +118,7 @@ export const articles = [
     {
         title: 'My background is really far from tech-- will this be possible?',
         preview: 'My professor used this following allegory. While you still need a good recipe for the dish to be good, good ingredients are very important. I’ll be the good ingredient to any recipes. Whatever education or career I choose, I will have a good base when it comes to acquiring and processing knowledge.',
-        img: './images/article-pic.svg',
+        img: './images/article-cover2.jpg',
         date: 'JANUARY 2022',
         link: ''
     },

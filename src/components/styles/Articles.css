@@ -3,6 +3,7 @@
    }
    
    .medium__card__image img {
+       margin-top : 20px;
        width: 300px;
    }
    
@@ -16,14 +17,3 @@
        font-size: .8em;
    }
    
-
-   @media (min-width: 900px) {
-    .intro__card {
-        padding: 20px;
-        margin-top: 40px;
-    }
-    .intro__card p {
-     text-align: center;
-     font-size: 1.2em;
-    }
- }
