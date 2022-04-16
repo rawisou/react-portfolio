@@ -122,6 +122,6 @@ export const articles = [
         preview: 'I just reflected upon my React learning experience these past two months and then wrote about 3 things in JavaScript fundamentals that I went back to and started over with. I thank myself I did that!',
         img: './images/article-2.png',
         date: 'APRIL 2022',
-        link: 'https://rawisara-saman.medium.com/im-doing-something-different-this-year-but-i-need-to-get-this-right-from-the-beginning-d1fde2e9d5dd'
+        link: 'https://rawisara-saman.medium.com/3-javascript-fundamentals-that-make-my-react-life-easier-reflection-after-two-months-of-learning-5228245fe64'
     },
 ]
