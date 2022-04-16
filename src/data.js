@@ -109,17 +109,19 @@ export const otherProjects = [
 
 export const articles = [
     {
-        title: 'My background is really far from tech-- will this be possible?',
-        preview: 'My professor used this following allegory. While you still need a good recipe for the dish to be good, good ingredients are very important. I’ll be the good ingredient to any recipes. Whatever education or career I choose, I will have a good base when it comes to acquiring and processing knowledge.',
-        img: './images/article-pic.svg',
-        date: 'JANUARY 2022',
-        link: 'https://rawisara-saman.medium.com/im-doing-something-different-this-year-but-i-need-to-get-this-right-from-the-beginning-d1fde2e9d5dd'
-    },
-    {
+        id: 1,
         title: 'My background is really far from tech-- will this be possible?',
         preview: 'My professor used this following allegory. While you still need a good recipe for the dish to be good, good ingredients are very important. I’ll be the good ingredient to any recipes. Whatever education or career I choose, I will have a good base when it comes to acquiring and processing knowledge.',
         img: './images/article-cover2.jpg',
         date: 'JANUARY 2022',
-        link: ''
+        link: 'https://rawisara-saman.medium.com/im-doing-something-different-this-year-but-i-need-to-get-this-right-from-the-beginning-d1fde2e9d5dd'
+    },
+    {
+        id: 2,
+        title: '3 JavaScript fundamentals that make my React life easier — reflection after two months of learning React',
+        preview: 'I just reflected upon my React learning experience these past two months and then wrote about 3 things in JavaScript fundamentals that I went back to and started over with. I thank myself I did that!',
+        img: './images/article-pic.svg',
+        date: 'APRIL 2022',
+        link: 'https://rawisara-saman.medium.com/im-doing-something-different-this-year-but-i-need-to-get-this-right-from-the-beginning-d1fde2e9d5dd'
     },
 ]
