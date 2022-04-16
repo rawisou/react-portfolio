@@ -6,13 +6,13 @@ const Header = () => {
     <header>
       <div class="header__linked-icons">
         <a href="https://www.linkedin.com/in/rawisara-saman-566b3121b/">
-          <img src="./images/linkedin-header.svg" alt="Linkedin icon" />
+          <img src="./images/linkedin-header.svg" alt="Linkedin" />
         </a>
         <a href="https://github.com/rawisou">
-          <img src="./images/github-header.svg" alt="Github icon" />
+          <img src="./images/github-header.svg" alt="Github" />
         </a>
-        <a href="https://stackoverflow.com/users/17854498/rawisara-saman">
-          <img src="./images/stackoverflow-header.svg" alt="StackOverflow icon" />
+        <a href="https://www.frontendmentor.io/profile/rawisou">
+          <img src="./images/frontendmentor-header.svg" alt="Frontend mentor" />
         </a>
       </div>
       <div class="header__text">

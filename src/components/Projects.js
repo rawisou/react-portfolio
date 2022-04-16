@@ -56,6 +56,7 @@ const Projects = () => {
       <h3>OTHER PROJECTS</h3>
       </div>
       {allOtherProjects}
+      <a href='https://www.frontendmentor.io/profile/rawisou'><h5>Frontend mentor challenges >></h5></a>
     </>
   )
 }
