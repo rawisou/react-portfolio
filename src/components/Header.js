@@ -19,6 +19,7 @@ const Header = () => {
         <h1>PORTFOLIO: RAWISARA SAMAN</h1>
         <h2>Frontend developer</h2>
         <div class="header__text--span">
+          <p>+ writer</p>
           <p>+ ecommerce specialist</p>
           <p>+ fraud analyst</p>
         </div>
